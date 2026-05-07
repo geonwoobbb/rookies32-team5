@@ -28,6 +28,6 @@ def crawling():
 
     return result
 
+
 if __name__ == "__main__":
-    for pocketmon in crawling():
-        print(pocketmon)
+    print(crawling())
