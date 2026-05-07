@@ -28,4 +28,6 @@ def crawling():
 
     return result
 
-print(crawling())
+
+if __name__ == "__main__":
+    print(crawling())

@@ -15,6 +15,11 @@ def create_excel_report(crawling_data):
     ws.append(header)
 
     # 헤더 스타일링
+    header_fill = PatternFill(start_color="FF00FF", fill_type='solid')
+    header_font = Font(color='FFFFFF', bold=True)
+    for cell in ws[1]:
+        cell.font = header_font
+        cell.fill = header_fill
     
 
     # 데이터 추가
