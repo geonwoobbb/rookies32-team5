@@ -1,0 +1,102 @@
+{
+    "pokemon": {
+        "bulbasaur": {
+            "name": "bulbasaur",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "moves": [
+                "razor-wind",
+                "swords-dance",
+                "cut",
+                "bind",
+                "vine-whip"
+            ],
+            "evolution": [
+                "bulbasaur",
+                "ivysaur",
+                "venusaur"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+        },
+        "ivysaur": {
+            "name": "ivysaur",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "moves": [
+                "swords-dance",
+                "cut",
+                "bind",
+                "vine-whip",
+                "headbutt"
+            ],
+            "evolution": [
+                "bulbasaur",
+                "ivysaur",
+                "venusaur"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
+        },
+        "venusaur": {
+            "name": "venusaur",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "moves": [
+                "swords-dance",
+                "cut",
+                "bind",
+                "vine-whip",
+                "headbutt"
+            ],
+            "evolution": [
+                "bulbasaur",
+                "ivysaur",
+                "venusaur"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
+        },
+        "charmander": {
+            "name": "charmander",
+            "types": [
+                "fire"
+            ],
+            "moves": [
+                "mega-punch",
+                "fire-punch",
+                "thunder-punch",
+                "scratch",
+                "swords-dance"
+            ],
+            "evolution": [
+                "charmander",
+                "charmeleon",
+                "charizard"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+        },
+        "charmeleon": {
+            "name": "charmeleon",
+            "types": [
+                "fire"
+            ],
+            "moves": [
+                "mega-punch",
+                "fire-punch",
+                "thunder-punch",
+                "scratch",
+                "swords-dance"
+            ],
+            "evolution": [
+                "charmander",
+                "charmeleon",
+                "charizard"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"
+        }
+    }
+}
