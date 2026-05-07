@@ -1,21 +1,18 @@
 import requests
 from bs4 import BeautifulSoup
+import re
 
-def get_joongonara():
-    url = "https://web.joongna.com/search/포켓몬카드"
+keyword = "라이츄" + "카드"
 
+def crawling():
+    url = f"https://web.joongna.com/search/{keyword}"
 
-    # 페이지 요청
-    
-    # 헤더 추가
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36'}
-    res = requests.get(url, headers=headers)
+    headers = { 'User-Agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36'}
 
-    # 파싱
+    response = requests.get(url, headers=headers)
+    soup = BeautifulSoup(response.text, 'html.parser')
 
-    soup = BeautifulSoup(res.text, 'html.parser')
-
-    # 데이터 추출
+    # 상품 카드 전체
     pocketmon_list = soup.select("div.z-auto")
     
     result = []
@@ -27,9 +24,9 @@ def get_joongonara():
             result.append({
                 "title": title.get_text(strip=True),
                 "price": price.get_text(strip=True),
-            
             })
-    print(result)
 
-get_joongonara()
+    return result
 
+
+print(crawling())
