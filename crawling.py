@@ -2,7 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-keyword = "라이츄" + "카드"
+def crawling(pokemon_name):
+    keyword = pokemon_name + " 카드"
 
 def crawling():
     url = f"https://web.joongna.com/search/{keyword}"
