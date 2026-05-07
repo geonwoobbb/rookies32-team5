@@ -28,5 +28,4 @@ def crawling():
 
     return result
 
-
 print(crawling())
