@@ -1,0 +1,510 @@
+{
+    "pokemon": {
+        "bulbasaur": {
+            "name": "이상해씨",
+            "name_en": "bulbasaur",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "moves": [
+                "razor-wind",
+                "swords-dance",
+                "cut",
+                "bind",
+                "vine-whip"
+            ],
+            "evolution": [
+                "bulbasaur",
+                "ivysaur",
+                "venusaur"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+        },
+        "ivysaur": {
+            "name": "이상해풀",
+            "name_en": "ivysaur",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "moves": [
+                "swords-dance",
+                "cut",
+                "bind",
+                "vine-whip",
+                "headbutt"
+            ],
+            "evolution": [
+                "bulbasaur",
+                "ivysaur",
+                "venusaur"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
+        },
+        "venusaur": {
+            "name": "이상해꽃",
+            "name_en": "venusaur",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "moves": [
+                "swords-dance",
+                "cut",
+                "bind",
+                "vine-whip",
+                "headbutt"
+            ],
+            "evolution": [
+                "bulbasaur",
+                "ivysaur",
+                "venusaur"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
+        },
+        "charmander": {
+            "name": "파이리",
+            "name_en": "charmander",
+            "types": [
+                "fire"
+            ],
+            "moves": [
+                "mega-punch",
+                "fire-punch",
+                "thunder-punch",
+                "scratch",
+                "swords-dance"
+            ],
+            "evolution": [
+                "charmander",
+                "charmeleon",
+                "charizard"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+        },
+        "charmeleon": {
+            "name": "리자드",
+            "name_en": "charmeleon",
+            "types": [
+                "fire"
+            ],
+            "moves": [
+                "mega-punch",
+                "fire-punch",
+                "thunder-punch",
+                "scratch",
+                "swords-dance"
+            ],
+            "evolution": [
+                "charmander",
+                "charmeleon",
+                "charizard"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"
+        },
+        "charizard": {
+            "name": "리자몽",
+            "name_en": "charizard",
+            "types": [
+                "fire",
+                "flying"
+            ],
+            "moves": [
+                "mega-punch",
+                "fire-punch",
+                "thunder-punch",
+                "scratch",
+                "swords-dance"
+            ],
+            "evolution": [
+                "charmander",
+                "charmeleon",
+                "charizard"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+        },
+        "squirtle": {
+            "name": "꼬부기",
+            "name_en": "squirtle",
+            "types": [
+                "water"
+            ],
+            "moves": [
+                "mega-punch",
+                "ice-punch",
+                "mega-kick",
+                "headbutt",
+                "tackle"
+            ],
+            "evolution": [
+                "squirtle",
+                "wartortle",
+                "blastoise"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
+        },
+        "wartortle": {
+            "name": "어니부기",
+            "name_en": "wartortle",
+            "types": [
+                "water"
+            ],
+            "moves": [
+                "mega-punch",
+                "ice-punch",
+                "mega-kick",
+                "headbutt",
+                "tackle"
+            ],
+            "evolution": [
+                "squirtle",
+                "wartortle",
+                "blastoise"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png"
+        },
+        "blastoise": {
+            "name": "거북왕",
+            "name_en": "blastoise",
+            "types": [
+                "water"
+            ],
+            "moves": [
+                "mega-punch",
+                "ice-punch",
+                "mega-kick",
+                "headbutt",
+                "tackle"
+            ],
+            "evolution": [
+                "squirtle",
+                "wartortle",
+                "blastoise"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png"
+        },
+        "caterpie": {
+            "name": "캐터피",
+            "name_en": "caterpie",
+            "types": [
+                "bug"
+            ],
+            "moves": [
+                "tackle",
+                "string-shot",
+                "snore",
+                "bug-bite",
+                "electroweb"
+            ],
+            "evolution": [
+                "caterpie",
+                "metapod",
+                "butterfree"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png"
+        },
+        "metapod": {
+            "name": "단데기",
+            "name_en": "metapod",
+            "types": [
+                "bug"
+            ],
+            "moves": [
+                "string-shot",
+                "harden",
+                "iron-defense",
+                "bug-bite",
+                "electroweb"
+            ],
+            "evolution": [
+                "caterpie",
+                "metapod",
+                "butterfree"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png"
+        },
+        "butterfree": {
+            "name": "버터플",
+            "name_en": "butterfree",
+            "types": [
+                "bug",
+                "flying"
+            ],
+            "moves": [
+                "razor-wind",
+                "gust",
+                "whirlwind",
+                "headbutt",
+                "tackle"
+            ],
+            "evolution": [
+                "caterpie",
+                "metapod",
+                "butterfree"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png"
+        },
+        "weedle": {
+            "name": "뿔충이",
+            "name_en": "weedle",
+            "types": [
+                "bug",
+                "poison"
+            ],
+            "moves": [
+                "poison-sting",
+                "string-shot",
+                "bug-bite",
+                "electroweb"
+            ],
+            "evolution": [
+                "weedle",
+                "kakuna",
+                "beedrill"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png"
+        },
+        "kakuna": {
+            "name": "딱충이",
+            "name_en": "kakuna",
+            "types": [
+                "bug",
+                "poison"
+            ],
+            "moves": [
+                "string-shot",
+                "harden",
+                "iron-defense",
+                "bug-bite",
+                "electroweb"
+            ],
+            "evolution": [
+                "weedle",
+                "kakuna",
+                "beedrill"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png"
+        },
+        "beedrill": {
+            "name": "독침붕",
+            "name_en": "beedrill",
+            "types": [
+                "bug",
+                "poison"
+            ],
+            "moves": [
+                "swords-dance",
+                "cut",
+                "headbutt",
+                "fury-attack",
+                "take-down"
+            ],
+            "evolution": [
+                "weedle",
+                "kakuna",
+                "beedrill"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png"
+        },
+        "pidgey": {
+            "name": "구구",
+            "name_en": "pidgey",
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "moves": [
+                "razor-wind",
+                "gust",
+                "wing-attack",
+                "whirlwind",
+                "fly"
+            ],
+            "evolution": [
+                "pidgey",
+                "pidgeotto",
+                "pidgeot"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png"
+        },
+        "pidgeotto": {
+            "name": "피죤",
+            "name_en": "pidgeotto",
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "moves": [
+                "razor-wind",
+                "gust",
+                "wing-attack",
+                "whirlwind",
+                "fly"
+            ],
+            "evolution": [
+                "pidgey",
+                "pidgeotto",
+                "pidgeot"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png"
+        },
+        "pidgeot": {
+            "name": "피죤투",
+            "name_en": "pidgeot",
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "moves": [
+                "razor-wind",
+                "gust",
+                "wing-attack",
+                "whirlwind",
+                "fly"
+            ],
+            "evolution": [
+                "pidgey",
+                "pidgeotto",
+                "pidgeot"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png"
+        },
+        "rattata": {
+            "name": "꼬렛",
+            "name_en": "rattata",
+            "types": [
+                "normal"
+            ],
+            "moves": [
+                "cut",
+                "headbutt",
+                "tackle",
+                "body-slam",
+                "take-down"
+            ],
+            "evolution": [
+                "rattata",
+                "raticate"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png"
+        },
+        "raticate": {
+            "name": "레트라",
+            "name_en": "raticate",
+            "types": [
+                "normal"
+            ],
+            "moves": [
+                "swords-dance",
+                "cut",
+                "headbutt",
+                "tackle",
+                "body-slam"
+            ],
+            "evolution": [
+                "rattata",
+                "raticate"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png"
+        },
+        "spearow": {
+            "name": "깨비참",
+            "name_en": "spearow",
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "moves": [
+                "razor-wind",
+                "wing-attack",
+                "whirlwind",
+                "fly",
+                "headbutt"
+            ],
+            "evolution": [
+                "spearow",
+                "fearow"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png"
+        },
+        "fearow": {
+            "name": "깨비드릴조",
+            "name_en": "fearow",
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "moves": [
+                "razor-wind",
+                "wing-attack",
+                "whirlwind",
+                "fly",
+                "headbutt"
+            ],
+            "evolution": [
+                "spearow",
+                "fearow"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png"
+        },
+        "ekans": {
+            "name": "아보",
+            "name_en": "ekans",
+            "types": [
+                "poison"
+            ],
+            "moves": [
+                "bind",
+                "slam",
+                "headbutt",
+                "body-slam",
+                "wrap"
+            ],
+            "evolution": [
+                "ekans",
+                "arbok"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png"
+        },
+        "arbok": {
+            "name": "아보크",
+            "name_en": "arbok",
+            "types": [
+                "poison"
+            ],
+            "moves": [
+                "bind",
+                "slam",
+                "headbutt",
+                "body-slam",
+                "wrap"
+            ],
+            "evolution": [
+                "ekans",
+                "arbok"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png"
+        },
+        "pikachu": {
+            "name": "피카츄",
+            "name_en": "pikachu",
+            "types": [
+                "electric"
+            ],
+            "moves": [
+                "mega-punch",
+                "pay-day",
+                "thunder-punch",
+                "slam",
+                "double-kick"
+            ],
+            "evolution": [
+                "pichu",
+                "pikachu",
+                "raichu"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+        }
+    }
+}
