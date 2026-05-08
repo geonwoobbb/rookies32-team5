@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>즐겨찾기 | 포켓몬 도감</title>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --red:#E3350D; --yellow:#FFCB05; --black:#1a1a2e; --white:#FAFAFA;
+      --card-bg: rgba(255,255,255,0.05);
+    }
+    *{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:'Noto Sans KR',sans-serif;background:var(--black);min-height:100vh;color:var(--white);}
+
+    header{
+      background:var(--red);padding:0 2rem;height:70px;
+      display:flex;align-items:center;justify-content:space-between;
+      position:sticky;top:0;z-index:100;
+      box-shadow:0 4px 20px rgba(227,53,13,.5);
+    }
+    .back-btn{display:flex;align-items:center;gap:6px;color:var(--yellow);text-decoration:none;
+      font-family:'Black Han Sans',sans-serif;font-size:1rem;transition:gap .2s;}
+    .back-btn:hover{gap:10px;}
+    .logo{font-family:'Black Han Sans',sans-serif;font-size:1.4rem;color:var(--yellow);}
+
+    .container{max-width:900px;margin:0 auto;padding:2rem 1.5rem;}
+
+    /* 상단 타이틀 */
+    .page-header{
+      display:flex;align-items:center;justify-content:space-between;
+      margin-bottom:2rem;flex-wrap:wrap;gap:1rem;
+    }
+    .page-title{
+      font-family:'Black Han Sans',sans-serif;font-size:1.6rem;
+      color:var(--yellow);letter-spacing:2px;
+      display:flex;align-items:center;gap:10px;
+    }
+    .fav-count{
+      background:var(--yellow);color:var(--black);
+      font-size:.8rem;font-weight:700;
+      padding:3px 10px;border-radius:20px;
+    }
+
+    /* 비어있을 때 */
+    .empty-box{
+      text-align:center;padding:5rem 2rem;
+      background:var(--card-bg);border:1px solid rgba(255,255,255,.08);
+      border-radius:20px;
+    }
+    .empty-box .ball{font-size:4rem;margin-bottom:1rem;opacity:.4;}
+    .empty-box p{color:rgba(255,255,255,.4);font-size:1rem;line-height:1.8;}
+    .empty-box a{
+      display:inline-block;margin-top:1.5rem;
+      padding:.7rem 2rem;background:var(--red);color:white;
+      border-radius:12px;text-decoration:none;font-weight:700;
+      font-family:'Black Han Sans',sans-serif;letter-spacing:1px;
+      transition:filter .2s;
+    }
+    .empty-box a:hover{filter:brightness(1.2);}
+
+    /* 포켓몬 카드 리스트 */
+    .fav-grid{
+      display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+      gap:1rem;margin-bottom:2rem;
+    }
+    .fav-card{
+      background:var(--card-bg);border:1px solid rgba(255,255,255,.08);
+      border-radius:14px;padding:1rem;text-align:center;
+      position:relative;animation:fadeUp .4s ease both;
+    }
+    .fav-card:nth-child(1){animation-delay:.05s;}
+    .fav-card:nth-child(2){animation-delay:.1s;}
+    .fav-card:nth-child(3){animation-delay:.15s;}
+    .fav-card:nth-child(4){animation-delay:.2s;}
+    .fav-card:nth-child(5){animation-delay:.25s;}
+    @keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+
+    .fav-card img{width:90px;height:90px;object-fit:contain;
+      filter:drop-shadow(0 4px 8px rgba(0,0,0,.3));}
+    .fav-card .name{font-family:'Black Han Sans',sans-serif;font-size:.95rem;
+      margin:.5rem 0 .3rem;letter-spacing:1px;}
+    .fav-card .eng{font-size:.7rem;color:rgba(255,255,255,.35);text-transform:capitalize;margin-bottom:.5rem;}
+    .type-badge{font-size:.65rem;font-weight:700;padding:2px 8px;border-radius:10px;color:white;margin:1px;}
+
+    .remove-btn{
+      position:absolute;top:8px;right:8px;
+      background:rgba(227,53,13,.7);border:none;color:white;
+      width:22px;height:22px;border-radius:50%;cursor:pointer;
+      font-size:.75rem;line-height:22px;text-align:center;
+      transition:background .2s;
+    }
+    .remove-btn:hover{background:var(--red);}
+
+    /* 액션 버튼 영역 */
+    .action-area{
+      background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);
+      border-radius:16px;padding:1.5rem;
+    }
+    .action-title{
+      font-family:'Black Han Sans',sans-serif;font-size:1rem;
+      color:var(--yellow);letter-spacing:1px;margin-bottom:1.2rem;
+      display:flex;align-items:center;gap:8px;
+    }
+    .action-title::before{content:'';display:block;width:4px;height:16px;
+      background:var(--yellow);border-radius:2px;}
+    .btn-row{display:flex;gap:1rem;flex-wrap:wrap;}
+
+    .btn{
+      flex:1;min-width:180px;padding:.9rem 1.5rem;border:none;border-radius:12px;
+      font-family:'Black Han Sans',sans-serif;font-size:1rem;letter-spacing:1px;
+      cursor:pointer;transition:all .2s;display:flex;align-items:center;
+      justify-content:center;gap:8px;
+    }
+    .btn-crawl{background:var(--red);color:white;}
+    .btn-excel{background:var(--yellow);color:var(--black);}
+    .btn:hover{filter:brightness(1.15);transform:translateY(-2px);
+      box-shadow:0 8px 20px rgba(0,0,0,.3);}
+    .btn:disabled{opacity:.5;cursor:not-allowed;transform:none;filter:none;}
+
+    /* 크롤링 결과 */
+    #crawl-results{margin-top:1.5rem;display:none;}
+    .result-block{margin-bottom:1.2rem;}
+    .result-poke-name{
+      font-family:'Black Han Sans',sans-serif;font-size:.95rem;
+      color:var(--yellow);padding:.5rem .8rem;
+      background:rgba(255,203,5,.1);border-radius:8px;
+      margin-bottom:.5rem;letter-spacing:1px;
+    }
+    table{width:100%;border-collapse:collapse;font-size:.82rem;}
+    th{background:rgba(255,255,255,.08);padding:8px 12px;text-align:left;
+      color:rgba(255,255,255,.6);font-weight:700;}
+    td{padding:8px 12px;border-bottom:1px solid rgba(255,255,255,.05);
+      color:rgba(255,255,255,.8);}
+    tr:hover td{background:rgba(255,255,255,.03);}
+    .unavail{color:rgba(255,255,255,.3);font-style:italic;}
+    .price-tag{color:var(--yellow);font-weight:700;}
+
+    /* 스피너 */
+    .spinner{display:none;width:20px;height:20px;
+      border:3px solid rgba(255,255,255,.3);border-top-color:white;
+      border-radius:50%;animation:spin .7s linear infinite;}
+    .btn-excel .spinner{border-top-color:var(--black);}
+    @keyframes spin{to{transform:rotate(360deg);}}
+
+    .status-msg{
+      margin-top:1rem;padding:.7rem 1rem;border-radius:8px;
+      font-size:.85rem;display:none;
+    }
+    .status-msg.ok{background:rgba(120,200,80,.15);color:#78C850;border:1px solid rgba(120,200,80,.3);}
+    .status-msg.err{background:rgba(227,53,13,.15);color:#ff6b4a;border:1px solid rgba(227,53,13,.3);}
+  </style>
+</head>
+<body>
+<header>
+  <a class="back-btn" href="/">← 도감으로</a>
+  <div class="logo">포켓몬 도감</div>
+  <div></div>
+</header>
+
+<div class="container">
+  <div class="page-header">
+    <div class="page-title">
+      ⭐ 즐겨찾기
+      <span class="fav-count" id="fav-count">{{ fav_list|length }} / {{ max_favorites }}</span>
+    </div>
+  </div>
+
+  {% if not fav_list %}
+  <div class="empty-box">
+    <div class="ball">⚪</div>
+    <p>아직 즐겨찾기한 포켓몬이 없어요.<br>도감에서 ⭐ 버튼을 눌러 최대 {{ max_favorites }}마리를 저장하세요!</p>
+    <a href="/">도감으로 가기</a>
+  </div>
+
+  {% else %}
+  <!-- 포켓몬 카드 -->
+  <div class="fav-grid" id="fav-grid">
+    {% for p in fav_list %}
+    <div class="fav-card" id="card-{{ p.id }}">
+      <button class="remove-btn" onclick="removeFav('{{ p.id }}')" title="즐겨찾기 해제">✕</button>
+      <img src="{{ p.image }}" alt="{{ p.name }}"/>
+      <div class="name">{{ p.name }}</div>
+      <div class="eng">{{ p.eng_name }}</div>
+      <div>
+        {% for t in p.types %}
+        <span class="type-badge" style="background:{{ type_colors.get(t,'#888') }}">{{ type_ko.get(t,t) }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- 액션 영역 -->
+  <div class="action-area">
+    <div class="action-title">시세 조회 & 엑셀 저장</div>
+    <div class="btn-row">
+      <button class="btn btn-crawl" id="btn-crawl" onclick="doCrawl()">
+        <div class="spinner" id="spin-crawl"></div>
+        <span id="txt-crawl">🔍 즐겨찾기 일괄 시세 조회</span>
+      </button>
+      <button class="btn btn-excel" id="btn-excel" onclick="doExcel()">
+        <div class="spinner" id="spin-excel"></div>
+        <span id="txt-excel">📥 엑셀로 저장</span>
+      </button>
+    </div>
+    <div class="status-msg" id="status-msg"></div>
+    <div id="crawl-results"></div>
+  </div>
+  {% endif %}
+</div>
+
+<script>
+async function removeFav(name) {
+  const res = await fetch('/api/favorite', {
+    method: 'POST',
+    headers: {'Content-Type':'application/json'},
+    body: JSON.stringify({name})
+  });
+  const data = await res.json();
+  if (data.status === 'removed') {
+    document.getElementById('card-' + name)?.remove();
+    document.getElementById('fav-count').textContent = data.count + ' / {{ max_favorites }}';
+    if (data.count === 0) location.reload();
+  }
+}
+
+async function doCrawl() {
+  const btn = document.getElementById('btn-crawl');
+  const spin = document.getElementById('spin-crawl');
+  const txt = document.getElementById('txt-crawl');
+  btn.disabled = true;
+  spin.style.display = 'block';
+  txt.textContent = '조회 중...';
+
+  try {
+    const res = await fetch('/api/crawl-favorites');
+    const data = await res.json();
+    const div = document.getElementById('crawl-results');
+    div.style.display = 'block';
+    div.innerHTML = '';
+
+    for (const [eng, info] of Object.entries(data)) {
+      let rows = info.items.map((item, i) => {
+        const unavail = item.title === '시세 예측 불가';
+        return `<tr>
+          <td>${i+1}</td>
+          <td class="${unavail?'unavail':''}">${item.title}</td>
+          <td class="${unavail?'unavail':'price-tag'}">${item.price}</td>
+        </tr>`;
+      }).join('');
+
+      div.innerHTML += `
+        <div class="result-block">
+          <div class="result-poke-name">▶ ${info.korean_name} <span style="opacity:.5;font-size:.8rem">(${eng})</span></div>
+          <table>
+            <thead><tr><th>#</th><th>상품명</th><th>가격</th></tr></thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>`;
+    }
+    showStatus('조회 완료! 엑셀 저장 버튼으로 다운로드하세요.', 'ok');
+  } catch(e) {
+    showStatus('크롤링 중 오류가 발생했습니다.', 'err');
+  } finally {
+    btn.disabled = false;
+    spin.style.display = 'none';
+    txt.textContent = '🔄 다시 조회';
+  }
+}
+
+async function doExcel() {
+  const btn = document.getElementById('btn-excel');
+  const spin = document.getElementById('spin-excel');
+  const txt = document.getElementById('txt-excel');
+  btn.disabled = true;
+  spin.style.display = 'block';
+  txt.textContent = '생성 중...';
+
+  try {
+    const res = await fetch('/api/excel-favorites');
+    if (!res.ok) { showStatus('엑셀 생성 실패', 'err'); return; }
+    const blob = await res.blob();
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = res.headers.get('Content-Disposition')?.match(/filename="(.+)"/)?.[1] || 'PokePriceReport.xlsx';
+    a.click();
+    URL.revokeObjectURL(url);
+    showStatus('✅ 엑셀 파일이 다운로드되었습니다!', 'ok');
+  } catch(e) {
+    showStatus('엑셀 저장 중 오류가 발생했습니다.', 'err');
+  } finally {
+    btn.disabled = false;
+    spin.style.display = 'none';
+    txt.textContent = '📥 엑셀로 저장';
+  }
+}
+
+function showStatus(msg, type) {
+  const el = document.getElementById('status-msg');
+  el.textContent = msg;
+  el.className = 'status-msg ' + type;
+  el.style.display = 'block';
+}
+</script>
+</body>
+</html>
