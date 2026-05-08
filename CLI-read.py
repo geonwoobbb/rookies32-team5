@@ -2,6 +2,7 @@ import json
 from pokemon_detail import show_pokemon_detail
 from crawling import crawling
 from make_excel import create_excel_report
+from back_menu import back_to_menu  # ← 추가
 
 # Type 한글화 작업
 TYPE_KO = {
@@ -103,7 +104,7 @@ def show_type_page():
         selected_type = type_list[choice - 1]
         pokemon_list = get_pokemon_by_type(selected_type)
 
-        return "POKEMON_LIST",{
+        return "POKEMON_LIST", {
             "type": selected_type,
             "list": pokemon_list
         }
@@ -122,7 +123,12 @@ def show_list_page(selected_type, pokemon_list):
         choice = input("\n선택: ").strip()
 
         if choice == "0":
-            return "LIST", None
+            result = back_to_menu()         # ← back_to_menu 적용
+            if result is True:
+                return "LIST", None         # 타입 선택으로
+            elif result is False:
+                return "EXIT", None         # 종료
+            continue                        # None이면 그냥 다시 출력
 
         if choice.isdigit():
             choice = int(choice)
@@ -143,7 +149,6 @@ def show_list_page(selected_type, pokemon_list):
         return "DETAIL", selected_pokemon
 
 
-
 def show_card_price_page(pokemon):
     print("\n=== 포켓몬 카드 시세 출력 ===")
 
@@ -154,23 +159,22 @@ def show_card_price_page(pokemon):
 
     if not card_data:
         print("카드 시세 데이터를 찾지 못했습니다.")
-        input("\nEnter를 누르면 상세보기로 돌아갑니다.")
-        return "DETAIL", pokemon
+    else:
+        print("\n[중고나라 검색 결과]\n")
+        for idx, item in enumerate(card_data, start=1):
+            print(f"{idx}. {item['title']}")
+            print(f"   가격: {item['price']}")
+            print()
+        create_excel_report(card_data, pokemon_name)
 
-    # 터미널에도 검색 결과 출력
-    print("\n[중고나라 검색 결과]\n")
+    result = back_to_menu()                 # ← back_to_menu 적용
+    if result is True:
+        return "LIST", None                 # 타입 선택으로
+    elif result is False:
+        return "EXIT", None                 # 종료
+    else:
+        return "DETAIL", pokemon            # None → 상세보기로 복귀
 
-    for idx, item in enumerate(card_data, start=1):
-        print(f"{idx}. {item['title']}")
-        print(f"   가격: {item['price']}")
-        print()
-
-    # 엑셀 파일 생성
-    create_excel_report(card_data, pokemon_name)
-
-    input("\nEnter를 누르면 상세보기로 돌아갑니다...")
-
-    return "DETAIL", pokemon
 
 def main():
     state = "LIST"
