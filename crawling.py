@@ -83,7 +83,7 @@ def to_korean_name(pokemon_name):
     return kor_name
 
 
-# 함수 변수 수정 (임시로 만들어 놓은 부분? 입력받은 포켓몬나오게설계)
+# 함수 변수 수정 (임시로 만들어 놓은 부분 입력받은 포켓몬나오게설계)
 def crawling(pokemon_name):
     pokemon_name = to_korean_name(pokemon_name)
     keyword = pokemon_name + " 카드"
