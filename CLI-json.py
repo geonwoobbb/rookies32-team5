@@ -101,7 +101,7 @@ def save_pokemon_json(pokemon_name):
 # -----------------------------
 def setting_pokemon():
 
-    limit = 5
+    limit = 151
 
     res = requests.get(
         f"{BASE_URL}/pokemon?limit={limit}"

@@ -1,0 +1,2842 @@
+{
+    "pokemon": {
+        "bulbasaur": {
+            "name": "bulbasaur",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "moves": [
+                "razor-wind",
+                "swords-dance",
+                "cut",
+                "bind",
+                "vine-whip"
+            ],
+            "evolution": [
+                "bulbasaur",
+                "ivysaur",
+                "venusaur"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+        },
+        "ivysaur": {
+            "name": "ivysaur",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "moves": [
+                "swords-dance",
+                "cut",
+                "bind",
+                "vine-whip",
+                "headbutt"
+            ],
+            "evolution": [
+                "bulbasaur",
+                "ivysaur",
+                "venusaur"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
+        },
+        "venusaur": {
+            "name": "venusaur",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "moves": [
+                "swords-dance",
+                "cut",
+                "bind",
+                "vine-whip",
+                "headbutt"
+            ],
+            "evolution": [
+                "bulbasaur",
+                "ivysaur",
+                "venusaur"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
+        },
+        "charmander": {
+            "name": "charmander",
+            "types": [
+                "fire"
+            ],
+            "moves": [
+                "mega-punch",
+                "fire-punch",
+                "thunder-punch",
+                "scratch",
+                "swords-dance"
+            ],
+            "evolution": [
+                "charmander",
+                "charmeleon",
+                "charizard"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+        },
+        "charmeleon": {
+            "name": "charmeleon",
+            "types": [
+                "fire"
+            ],
+            "moves": [
+                "mega-punch",
+                "fire-punch",
+                "thunder-punch",
+                "scratch",
+                "swords-dance"
+            ],
+            "evolution": [
+                "charmander",
+                "charmeleon",
+                "charizard"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"
+        },
+        "charizard": {
+            "name": "charizard",
+            "types": [
+                "fire",
+                "flying"
+            ],
+            "moves": [
+                "mega-punch",
+                "fire-punch",
+                "thunder-punch",
+                "scratch",
+                "swords-dance"
+            ],
+            "evolution": [
+                "charmander",
+                "charmeleon",
+                "charizard"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+        },
+        "squirtle": {
+            "name": "squirtle",
+            "types": [
+                "water"
+            ],
+            "moves": [
+                "mega-punch",
+                "ice-punch",
+                "mega-kick",
+                "headbutt",
+                "tackle"
+            ],
+            "evolution": [
+                "squirtle",
+                "wartortle",
+                "blastoise"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
+        },
+        "wartortle": {
+            "name": "wartortle",
+            "types": [
+                "water"
+            ],
+            "moves": [
+                "mega-punch",
+                "ice-punch",
+                "mega-kick",
+                "headbutt",
+                "tackle"
+            ],
+            "evolution": [
+                "squirtle",
+                "wartortle",
+                "blastoise"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png"
+        },
+        "blastoise": {
+            "name": "blastoise",
+            "types": [
+                "water"
+            ],
+            "moves": [
+                "mega-punch",
+                "ice-punch",
+                "mega-kick",
+                "headbutt",
+                "tackle"
+            ],
+            "evolution": [
+                "squirtle",
+                "wartortle",
+                "blastoise"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png"
+        },
+        "caterpie": {
+            "name": "caterpie",
+            "types": [
+                "bug"
+            ],
+            "moves": [
+                "tackle",
+                "string-shot",
+                "snore",
+                "bug-bite",
+                "electroweb"
+            ],
+            "evolution": [
+                "caterpie",
+                "metapod",
+                "butterfree"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png"
+        },
+        "metapod": {
+            "name": "metapod",
+            "types": [
+                "bug"
+            ],
+            "moves": [
+                "string-shot",
+                "harden",
+                "iron-defense",
+                "bug-bite",
+                "electroweb"
+            ],
+            "evolution": [
+                "caterpie",
+                "metapod",
+                "butterfree"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png"
+        },
+        "butterfree": {
+            "name": "butterfree",
+            "types": [
+                "bug",
+                "flying"
+            ],
+            "moves": [
+                "razor-wind",
+                "gust",
+                "whirlwind",
+                "headbutt",
+                "tackle"
+            ],
+            "evolution": [
+                "caterpie",
+                "metapod",
+                "butterfree"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png"
+        },
+        "weedle": {
+            "name": "weedle",
+            "types": [
+                "bug",
+                "poison"
+            ],
+            "moves": [
+                "poison-sting",
+                "string-shot",
+                "bug-bite",
+                "electroweb"
+            ],
+            "evolution": [
+                "weedle",
+                "kakuna",
+                "beedrill"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png"
+        },
+        "kakuna": {
+            "name": "kakuna",
+            "types": [
+                "bug",
+                "poison"
+            ],
+            "moves": [
+                "string-shot",
+                "harden",
+                "iron-defense",
+                "bug-bite",
+                "electroweb"
+            ],
+            "evolution": [
+                "weedle",
+                "kakuna",
+                "beedrill"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png"
+        },
+        "beedrill": {
+            "name": "beedrill",
+            "types": [
+                "bug",
+                "poison"
+            ],
+            "moves": [
+                "swords-dance",
+                "cut",
+                "headbutt",
+                "fury-attack",
+                "take-down"
+            ],
+            "evolution": [
+                "weedle",
+                "kakuna",
+                "beedrill"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png"
+        },
+        "pidgey": {
+            "name": "pidgey",
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "moves": [
+                "razor-wind",
+                "gust",
+                "wing-attack",
+                "whirlwind",
+                "fly"
+            ],
+            "evolution": [
+                "pidgey",
+                "pidgeotto",
+                "pidgeot"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png"
+        },
+        "pidgeotto": {
+            "name": "pidgeotto",
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "moves": [
+                "razor-wind",
+                "gust",
+                "wing-attack",
+                "whirlwind",
+                "fly"
+            ],
+            "evolution": [
+                "pidgey",
+                "pidgeotto",
+                "pidgeot"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png"
+        },
+        "pidgeot": {
+            "name": "pidgeot",
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "moves": [
+                "razor-wind",
+                "gust",
+                "wing-attack",
+                "whirlwind",
+                "fly"
+            ],
+            "evolution": [
+                "pidgey",
+                "pidgeotto",
+                "pidgeot"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png"
+        },
+        "rattata": {
+            "name": "rattata",
+            "types": [
+                "normal"
+            ],
+            "moves": [
+                "cut",
+                "headbutt",
+                "tackle",
+                "body-slam",
+                "take-down"
+            ],
+            "evolution": [
+                "rattata",
+                "raticate"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png"
+        },
+        "raticate": {
+            "name": "raticate",
+            "types": [
+                "normal"
+            ],
+            "moves": [
+                "swords-dance",
+                "cut",
+                "headbutt",
+                "tackle",
+                "body-slam"
+            ],
+            "evolution": [
+                "rattata",
+                "raticate"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png"
+        },
+        "spearow": {
+            "name": "spearow",
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "moves": [
+                "razor-wind",
+                "wing-attack",
+                "whirlwind",
+                "fly",
+                "headbutt"
+            ],
+            "evolution": [
+                "spearow",
+                "fearow"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png"
+        },
+        "fearow": {
+            "name": "fearow",
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "moves": [
+                "razor-wind",
+                "wing-attack",
+                "whirlwind",
+                "fly",
+                "headbutt"
+            ],
+            "evolution": [
+                "spearow",
+                "fearow"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png"
+        },
+        "ekans": {
+            "name": "ekans",
+            "types": [
+                "poison"
+            ],
+            "moves": [
+                "bind",
+                "slam",
+                "headbutt",
+                "body-slam",
+                "wrap"
+            ],
+            "evolution": [
+                "ekans",
+                "arbok"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png"
+        },
+        "arbok": {
+            "name": "arbok",
+            "types": [
+                "poison"
+            ],
+            "moves": [
+                "bind",
+                "slam",
+                "headbutt",
+                "body-slam",
+                "wrap"
+            ],
+            "evolution": [
+                "ekans",
+                "arbok"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png"
+        },
+        "pikachu": {
+            "name": "pikachu",
+            "types": [
+                "electric"
+            ],
+            "moves": [
+                "mega-punch",
+                "pay-day",
+                "thunder-punch",
+                "slam",
+                "double-kick"
+            ],
+            "evolution": [
+                "pichu",
+                "pikachu",
+                "raichu"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+        },
+        "raichu": {
+            "name": "raichu",
+            "types": [
+                "electric"
+            ],
+            "moves": [
+                "mega-punch",
+                "pay-day",
+                "thunder-punch",
+                "slam",
+                "mega-kick"
+            ],
+            "evolution": [
+                "pichu",
+                "pikachu",
+                "raichu"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png"
+        },
+        "sandshrew": {
+            "name": "sandshrew",
+            "types": [
+                "ground"
+            ],
+            "moves": [
+                "scratch",
+                "swords-dance",
+                "cut",
+                "sand-attack",
+                "headbutt"
+            ],
+            "evolution": [
+                "sandshrew",
+                "sandslash"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png"
+        },
+        "sandslash": {
+            "name": "sandslash",
+            "types": [
+                "ground"
+            ],
+            "moves": [
+                "scratch",
+                "swords-dance",
+                "cut",
+                "sand-attack",
+                "headbutt"
+            ],
+            "evolution": [
+                "sandshrew",
+                "sandslash"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png"
+        },
+        "nidoran-f": {
+            "name": "nidoran-f",
+            "types": [
+                "poison"
+            ],
+            "moves": [
+                "scratch",
+                "cut",
+                "double-kick",
+                "headbutt",
+                "tackle"
+            ],
+            "evolution": [
+                "nidoran-f",
+                "nidorina",
+                "nidoqueen"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png"
+        },
+        "nidorina": {
+            "name": "nidorina",
+            "types": [
+                "poison"
+            ],
+            "moves": [
+                "scratch",
+                "cut",
+                "double-kick",
+                "headbutt",
+                "horn-drill"
+            ],
+            "evolution": [
+                "nidoran-f",
+                "nidorina",
+                "nidoqueen"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png"
+        },
+        "nidoqueen": {
+            "name": "nidoqueen",
+            "types": [
+                "poison",
+                "ground"
+            ],
+            "moves": [
+                "mega-punch",
+                "pay-day",
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch"
+            ],
+            "evolution": [
+                "nidoran-f",
+                "nidorina",
+                "nidoqueen"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png"
+        },
+        "nidoran-m": {
+            "name": "nidoran-m",
+            "types": [
+                "poison"
+            ],
+            "moves": [
+                "cut",
+                "double-kick",
+                "headbutt",
+                "horn-attack",
+                "fury-attack"
+            ],
+            "evolution": [
+                "nidoran-m",
+                "nidorino",
+                "nidoking"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png"
+        },
+        "nidorino": {
+            "name": "nidorino",
+            "types": [
+                "poison"
+            ],
+            "moves": [
+                "cut",
+                "double-kick",
+                "headbutt",
+                "horn-attack",
+                "fury-attack"
+            ],
+            "evolution": [
+                "nidoran-m",
+                "nidorino",
+                "nidoking"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png"
+        },
+        "nidoking": {
+            "name": "nidoking",
+            "types": [
+                "poison",
+                "ground"
+            ],
+            "moves": [
+                "mega-punch",
+                "pay-day",
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch"
+            ],
+            "evolution": [
+                "nidoran-m",
+                "nidorino",
+                "nidoking"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png"
+        },
+        "clefairy": {
+            "name": "clefairy",
+            "types": [
+                "fairy"
+            ],
+            "moves": [
+                "pound",
+                "double-slap",
+                "mega-punch",
+                "fire-punch",
+                "ice-punch"
+            ],
+            "evolution": [
+                "cleffa",
+                "clefairy",
+                "clefable"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png"
+        },
+        "clefable": {
+            "name": "clefable",
+            "types": [
+                "fairy"
+            ],
+            "moves": [
+                "pound",
+                "double-slap",
+                "mega-punch",
+                "fire-punch",
+                "ice-punch"
+            ],
+            "evolution": [
+                "cleffa",
+                "clefairy",
+                "clefable"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png"
+        },
+        "vulpix": {
+            "name": "vulpix",
+            "types": [
+                "fire"
+            ],
+            "moves": [
+                "headbutt",
+                "tackle",
+                "body-slam",
+                "take-down",
+                "double-edge"
+            ],
+            "evolution": [
+                "vulpix",
+                "ninetales"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png"
+        },
+        "ninetales": {
+            "name": "ninetales",
+            "types": [
+                "fire"
+            ],
+            "moves": [
+                "headbutt",
+                "tackle",
+                "body-slam",
+                "take-down",
+                "double-edge"
+            ],
+            "evolution": [
+                "vulpix",
+                "ninetales"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png"
+        },
+        "jigglypuff": {
+            "name": "jigglypuff",
+            "types": [
+                "normal",
+                "fairy"
+            ],
+            "moves": [
+                "pound",
+                "double-slap",
+                "mega-punch",
+                "fire-punch",
+                "ice-punch"
+            ],
+            "evolution": [
+                "igglybuff",
+                "jigglypuff",
+                "wigglytuff"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png"
+        },
+        "wigglytuff": {
+            "name": "wigglytuff",
+            "types": [
+                "normal",
+                "fairy"
+            ],
+            "moves": [
+                "pound",
+                "double-slap",
+                "mega-punch",
+                "fire-punch",
+                "ice-punch"
+            ],
+            "evolution": [
+                "igglybuff",
+                "jigglypuff",
+                "wigglytuff"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png"
+        },
+        "zubat": {
+            "name": "zubat",
+            "types": [
+                "poison",
+                "flying"
+            ],
+            "moves": [
+                "razor-wind",
+                "gust",
+                "wing-attack",
+                "whirlwind",
+                "fly"
+            ],
+            "evolution": [
+                "zubat",
+                "golbat",
+                "crobat"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png"
+        },
+        "golbat": {
+            "name": "golbat",
+            "types": [
+                "poison",
+                "flying"
+            ],
+            "moves": [
+                "razor-wind",
+                "gust",
+                "wing-attack",
+                "whirlwind",
+                "fly"
+            ],
+            "evolution": [
+                "zubat",
+                "golbat",
+                "crobat"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png"
+        },
+        "oddish": {
+            "name": "oddish",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "moves": [
+                "swords-dance",
+                "cut",
+                "headbutt",
+                "take-down",
+                "double-edge"
+            ],
+            "evolution": [
+                "oddish",
+                "gloom",
+                "vileplume"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png"
+        },
+        "gloom": {
+            "name": "gloom",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "moves": [
+                "swords-dance",
+                "cut",
+                "headbutt",
+                "take-down",
+                "double-edge"
+            ],
+            "evolution": [
+                "oddish",
+                "gloom",
+                "vileplume"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png"
+        },
+        "vileplume": {
+            "name": "vileplume",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "moves": [
+                "swords-dance",
+                "cut",
+                "headbutt",
+                "body-slam",
+                "take-down"
+            ],
+            "evolution": [
+                "oddish",
+                "gloom",
+                "vileplume"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png"
+        },
+        "paras": {
+            "name": "paras",
+            "types": [
+                "bug",
+                "grass"
+            ],
+            "moves": [
+                "scratch",
+                "swords-dance",
+                "cut",
+                "headbutt",
+                "body-slam"
+            ],
+            "evolution": [
+                "paras",
+                "parasect"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png"
+        },
+        "parasect": {
+            "name": "parasect",
+            "types": [
+                "bug",
+                "grass"
+            ],
+            "moves": [
+                "scratch",
+                "swords-dance",
+                "cut",
+                "headbutt",
+                "body-slam"
+            ],
+            "evolution": [
+                "paras",
+                "parasect"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png"
+        },
+        "venonat": {
+            "name": "venonat",
+            "types": [
+                "bug",
+                "poison"
+            ],
+            "moves": [
+                "headbutt",
+                "tackle",
+                "take-down",
+                "double-edge",
+                "supersonic"
+            ],
+            "evolution": [
+                "venonat",
+                "venomoth"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png"
+        },
+        "venomoth": {
+            "name": "venomoth",
+            "types": [
+                "bug",
+                "poison"
+            ],
+            "moves": [
+                "razor-wind",
+                "gust",
+                "whirlwind",
+                "headbutt",
+                "tackle"
+            ],
+            "evolution": [
+                "venonat",
+                "venomoth"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png"
+        },
+        "diglett": {
+            "name": "diglett",
+            "types": [
+                "ground"
+            ],
+            "moves": [
+                "scratch",
+                "swords-dance",
+                "cut",
+                "sand-attack",
+                "headbutt"
+            ],
+            "evolution": [
+                "diglett",
+                "dugtrio"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png"
+        },
+        "dugtrio": {
+            "name": "dugtrio",
+            "types": [
+                "ground"
+            ],
+            "moves": [
+                "scratch",
+                "swords-dance",
+                "cut",
+                "sand-attack",
+                "headbutt"
+            ],
+            "evolution": [
+                "diglett",
+                "dugtrio"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png"
+        },
+        "meowth": {
+            "name": "meowth",
+            "types": [
+                "normal"
+            ],
+            "moves": [
+                "pay-day",
+                "scratch",
+                "cut",
+                "headbutt",
+                "body-slam"
+            ],
+            "evolution": [
+                "meowth",
+                "persian"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png"
+        },
+        "persian": {
+            "name": "persian",
+            "types": [
+                "normal"
+            ],
+            "moves": [
+                "pay-day",
+                "scratch",
+                "cut",
+                "headbutt",
+                "body-slam"
+            ],
+            "evolution": [
+                "meowth",
+                "persian"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png"
+        },
+        "psyduck": {
+            "name": "psyduck",
+            "types": [
+                "water"
+            ],
+            "moves": [
+                "mega-punch",
+                "pay-day",
+                "ice-punch",
+                "scratch",
+                "mega-kick"
+            ],
+            "evolution": [
+                "psyduck",
+                "golduck"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png"
+        },
+        "golduck": {
+            "name": "golduck",
+            "types": [
+                "water"
+            ],
+            "moves": [
+                "mega-punch",
+                "pay-day",
+                "ice-punch",
+                "scratch",
+                "mega-kick"
+            ],
+            "evolution": [
+                "psyduck",
+                "golduck"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png"
+        },
+        "mankey": {
+            "name": "mankey",
+            "types": [
+                "fighting"
+            ],
+            "moves": [
+                "karate-chop",
+                "mega-punch",
+                "pay-day",
+                "fire-punch",
+                "ice-punch"
+            ],
+            "evolution": [
+                "mankey",
+                "primeape",
+                "annihilape"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png"
+        },
+        "primeape": {
+            "name": "primeape",
+            "types": [
+                "fighting"
+            ],
+            "moves": [
+                "karate-chop",
+                "mega-punch",
+                "pay-day",
+                "fire-punch",
+                "ice-punch"
+            ],
+            "evolution": [
+                "mankey",
+                "primeape",
+                "annihilape"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png"
+        },
+        "growlithe": {
+            "name": "growlithe",
+            "types": [
+                "fire"
+            ],
+            "moves": [
+                "double-kick",
+                "headbutt",
+                "body-slam",
+                "take-down",
+                "thrash"
+            ],
+            "evolution": [
+                "growlithe",
+                "arcanine"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png"
+        },
+        "arcanine": {
+            "name": "arcanine",
+            "types": [
+                "fire"
+            ],
+            "moves": [
+                "headbutt",
+                "body-slam",
+                "take-down",
+                "double-edge",
+                "leer"
+            ],
+            "evolution": [
+                "growlithe",
+                "arcanine"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png"
+        },
+        "poliwag": {
+            "name": "poliwag",
+            "types": [
+                "water"
+            ],
+            "moves": [
+                "pound",
+                "double-slap",
+                "headbutt",
+                "body-slam",
+                "take-down"
+            ],
+            "evolution": [
+                "poliwag",
+                "poliwhirl",
+                "poliwrath"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png"
+        },
+        "poliwhirl": {
+            "name": "poliwhirl",
+            "types": [
+                "water"
+            ],
+            "moves": [
+                "pound",
+                "double-slap",
+                "mega-punch",
+                "ice-punch",
+                "mega-kick"
+            ],
+            "evolution": [
+                "poliwag",
+                "poliwhirl",
+                "poliwrath"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png"
+        },
+        "poliwrath": {
+            "name": "poliwrath",
+            "types": [
+                "water",
+                "fighting"
+            ],
+            "moves": [
+                "pound",
+                "double-slap",
+                "mega-punch",
+                "ice-punch",
+                "mega-kick"
+            ],
+            "evolution": [
+                "poliwag",
+                "poliwhirl",
+                "poliwrath"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png"
+        },
+        "abra": {
+            "name": "abra",
+            "types": [
+                "psychic"
+            ],
+            "moves": [
+                "mega-punch",
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch",
+                "mega-kick"
+            ],
+            "evolution": [
+                "abra",
+                "kadabra",
+                "alakazam"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png"
+        },
+        "kadabra": {
+            "name": "kadabra",
+            "types": [
+                "psychic"
+            ],
+            "moves": [
+                "mega-punch",
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch",
+                "mega-kick"
+            ],
+            "evolution": [
+                "abra",
+                "kadabra",
+                "alakazam"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png"
+        },
+        "alakazam": {
+            "name": "alakazam",
+            "types": [
+                "psychic"
+            ],
+            "moves": [
+                "mega-punch",
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch",
+                "mega-kick"
+            ],
+            "evolution": [
+                "abra",
+                "kadabra",
+                "alakazam"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png"
+        },
+        "machop": {
+            "name": "machop",
+            "types": [
+                "fighting"
+            ],
+            "moves": [
+                "karate-chop",
+                "mega-punch",
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch"
+            ],
+            "evolution": [
+                "machop",
+                "machoke",
+                "machamp"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png"
+        },
+        "machoke": {
+            "name": "machoke",
+            "types": [
+                "fighting"
+            ],
+            "moves": [
+                "karate-chop",
+                "mega-punch",
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch"
+            ],
+            "evolution": [
+                "machop",
+                "machoke",
+                "machamp"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png"
+        },
+        "machamp": {
+            "name": "machamp",
+            "types": [
+                "fighting"
+            ],
+            "moves": [
+                "karate-chop",
+                "mega-punch",
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch"
+            ],
+            "evolution": [
+                "machop",
+                "machoke",
+                "machamp"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png"
+        },
+        "bellsprout": {
+            "name": "bellsprout",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "moves": [
+                "swords-dance",
+                "cut",
+                "bind",
+                "slam",
+                "vine-whip"
+            ],
+            "evolution": [
+                "bellsprout",
+                "weepinbell",
+                "victreebel"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png"
+        },
+        "weepinbell": {
+            "name": "weepinbell",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "moves": [
+                "swords-dance",
+                "cut",
+                "bind",
+                "slam",
+                "vine-whip"
+            ],
+            "evolution": [
+                "bellsprout",
+                "weepinbell",
+                "victreebel"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png"
+        },
+        "victreebel": {
+            "name": "victreebel",
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "moves": [
+                "swords-dance",
+                "cut",
+                "bind",
+                "slam",
+                "vine-whip"
+            ],
+            "evolution": [
+                "bellsprout",
+                "weepinbell",
+                "victreebel"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png"
+        },
+        "tentacool": {
+            "name": "tentacool",
+            "types": [
+                "water",
+                "poison"
+            ],
+            "moves": [
+                "swords-dance",
+                "cut",
+                "bind",
+                "headbutt",
+                "wrap"
+            ],
+            "evolution": [
+                "tentacool",
+                "tentacruel"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png"
+        },
+        "tentacruel": {
+            "name": "tentacruel",
+            "types": [
+                "water",
+                "poison"
+            ],
+            "moves": [
+                "swords-dance",
+                "cut",
+                "bind",
+                "headbutt",
+                "wrap"
+            ],
+            "evolution": [
+                "tentacool",
+                "tentacruel"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png"
+        },
+        "geodude": {
+            "name": "geodude",
+            "types": [
+                "rock",
+                "ground"
+            ],
+            "moves": [
+                "mega-punch",
+                "fire-punch",
+                "thunder-punch",
+                "sand-attack",
+                "headbutt"
+            ],
+            "evolution": [
+                "geodude",
+                "graveler",
+                "golem"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png"
+        },
+        "graveler": {
+            "name": "graveler",
+            "types": [
+                "rock",
+                "ground"
+            ],
+            "moves": [
+                "mega-punch",
+                "fire-punch",
+                "thunder-punch",
+                "sand-attack",
+                "headbutt"
+            ],
+            "evolution": [
+                "geodude",
+                "graveler",
+                "golem"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png"
+        },
+        "golem": {
+            "name": "golem",
+            "types": [
+                "rock",
+                "ground"
+            ],
+            "moves": [
+                "mega-punch",
+                "fire-punch",
+                "thunder-punch",
+                "mega-kick",
+                "sand-attack"
+            ],
+            "evolution": [
+                "geodude",
+                "graveler",
+                "golem"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png"
+        },
+        "ponyta": {
+            "name": "ponyta",
+            "types": [
+                "fire"
+            ],
+            "moves": [
+                "stomp",
+                "double-kick",
+                "headbutt",
+                "horn-drill",
+                "tackle"
+            ],
+            "evolution": [
+                "ponyta",
+                "rapidash"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png"
+        },
+        "rapidash": {
+            "name": "rapidash",
+            "types": [
+                "fire"
+            ],
+            "moves": [
+                "pay-day",
+                "swords-dance",
+                "stomp",
+                "double-kick",
+                "headbutt"
+            ],
+            "evolution": [
+                "ponyta",
+                "rapidash"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png"
+        },
+        "slowpoke": {
+            "name": "slowpoke",
+            "types": [
+                "water",
+                "psychic"
+            ],
+            "moves": [
+                "pay-day",
+                "stomp",
+                "headbutt",
+                "tackle",
+                "body-slam"
+            ],
+            "evolution": [
+                "slowpoke",
+                "slowbro"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png"
+        },
+        "slowbro": {
+            "name": "slowbro",
+            "types": [
+                "water",
+                "psychic"
+            ],
+            "moves": [
+                "mega-punch",
+                "pay-day",
+                "ice-punch",
+                "stomp",
+                "mega-kick"
+            ],
+            "evolution": [
+                "slowpoke",
+                "slowbro"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png"
+        },
+        "magnemite": {
+            "name": "magnemite",
+            "types": [
+                "electric",
+                "steel"
+            ],
+            "moves": [
+                "headbutt",
+                "tackle",
+                "take-down",
+                "double-edge",
+                "supersonic"
+            ],
+            "evolution": [
+                "magnemite",
+                "magneton",
+                "magnezone"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png"
+        },
+        "magneton": {
+            "name": "magneton",
+            "types": [
+                "electric",
+                "steel"
+            ],
+            "moves": [
+                "headbutt",
+                "tackle",
+                "take-down",
+                "double-edge",
+                "supersonic"
+            ],
+            "evolution": [
+                "magnemite",
+                "magneton",
+                "magnezone"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png"
+        },
+        "farfetchd": {
+            "name": "farfetchd",
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "moves": [
+                "razor-wind",
+                "swords-dance",
+                "cut",
+                "gust",
+                "whirlwind"
+            ],
+            "evolution": [
+                "farfetchd",
+                "sirfetchd"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png"
+        },
+        "doduo": {
+            "name": "doduo",
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "moves": [
+                "swords-dance",
+                "wing-attack",
+                "whirlwind",
+                "fly",
+                "jump-kick"
+            ],
+            "evolution": [
+                "doduo",
+                "dodrio"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png"
+        },
+        "dodrio": {
+            "name": "dodrio",
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "moves": [
+                "swords-dance",
+                "wing-attack",
+                "whirlwind",
+                "fly",
+                "jump-kick"
+            ],
+            "evolution": [
+                "doduo",
+                "dodrio"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png"
+        },
+        "seel": {
+            "name": "seel",
+            "types": [
+                "water"
+            ],
+            "moves": [
+                "pay-day",
+                "slam",
+                "headbutt",
+                "horn-drill",
+                "body-slam"
+            ],
+            "evolution": [
+                "seel",
+                "dewgong"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png"
+        },
+        "dewgong": {
+            "name": "dewgong",
+            "types": [
+                "water",
+                "ice"
+            ],
+            "moves": [
+                "pay-day",
+                "headbutt",
+                "horn-drill",
+                "body-slam",
+                "take-down"
+            ],
+            "evolution": [
+                "seel",
+                "dewgong"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png"
+        },
+        "grimer": {
+            "name": "grimer",
+            "types": [
+                "poison"
+            ],
+            "moves": [
+                "pound",
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch",
+                "headbutt"
+            ],
+            "evolution": [
+                "grimer",
+                "muk"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png"
+        },
+        "muk": {
+            "name": "muk",
+            "types": [
+                "poison"
+            ],
+            "moves": [
+                "pound",
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch",
+                "headbutt"
+            ],
+            "evolution": [
+                "grimer",
+                "muk"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png"
+        },
+        "shellder": {
+            "name": "shellder",
+            "types": [
+                "water"
+            ],
+            "moves": [
+                "headbutt",
+                "tackle",
+                "take-down",
+                "double-edge",
+                "twineedle"
+            ],
+            "evolution": [
+                "shellder",
+                "cloyster"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png"
+        },
+        "cloyster": {
+            "name": "cloyster",
+            "types": [
+                "water",
+                "ice"
+            ],
+            "moves": [
+                "headbutt",
+                "tackle",
+                "body-slam",
+                "take-down",
+                "double-edge"
+            ],
+            "evolution": [
+                "shellder",
+                "cloyster"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png"
+        },
+        "gastly": {
+            "name": "gastly",
+            "types": [
+                "ghost",
+                "poison"
+            ],
+            "moves": [
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch",
+                "headbutt",
+                "disable"
+            ],
+            "evolution": [
+                "gastly",
+                "haunter",
+                "gengar"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png"
+        },
+        "haunter": {
+            "name": "haunter",
+            "types": [
+                "ghost",
+                "poison"
+            ],
+            "moves": [
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch",
+                "headbutt",
+                "mega-drain"
+            ],
+            "evolution": [
+                "gastly",
+                "haunter",
+                "gengar"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png"
+        },
+        "gengar": {
+            "name": "gengar",
+            "types": [
+                "ghost",
+                "poison"
+            ],
+            "moves": [
+                "mega-punch",
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch",
+                "mega-kick"
+            ],
+            "evolution": [
+                "gastly",
+                "haunter",
+                "gengar"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png"
+        },
+        "onix": {
+            "name": "onix",
+            "types": [
+                "rock",
+                "ground"
+            ],
+            "moves": [
+                "bind",
+                "slam",
+                "headbutt",
+                "tackle",
+                "body-slam"
+            ],
+            "evolution": [
+                "onix",
+                "steelix"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png"
+        },
+        "drowzee": {
+            "name": "drowzee",
+            "types": [
+                "psychic"
+            ],
+            "moves": [
+                "pound",
+                "mega-punch",
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch"
+            ],
+            "evolution": [
+                "drowzee",
+                "hypno"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png"
+        },
+        "hypno": {
+            "name": "hypno",
+            "types": [
+                "psychic"
+            ],
+            "moves": [
+                "pound",
+                "mega-punch",
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch"
+            ],
+            "evolution": [
+                "drowzee",
+                "hypno"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png"
+        },
+        "krabby": {
+            "name": "krabby",
+            "types": [
+                "water"
+            ],
+            "moves": [
+                "vice-grip",
+                "guillotine",
+                "swords-dance",
+                "cut",
+                "slam"
+            ],
+            "evolution": [
+                "krabby",
+                "kingler"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png"
+        },
+        "kingler": {
+            "name": "kingler",
+            "types": [
+                "water"
+            ],
+            "moves": [
+                "vice-grip",
+                "guillotine",
+                "swords-dance",
+                "cut",
+                "slam"
+            ],
+            "evolution": [
+                "krabby",
+                "kingler"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png"
+        },
+        "voltorb": {
+            "name": "voltorb",
+            "types": [
+                "electric"
+            ],
+            "moves": [
+                "headbutt",
+                "tackle",
+                "take-down",
+                "double-edge",
+                "sonic-boom"
+            ],
+            "evolution": [
+                "voltorb",
+                "electrode"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png"
+        },
+        "electrode": {
+            "name": "electrode",
+            "types": [
+                "electric"
+            ],
+            "moves": [
+                "headbutt",
+                "tackle",
+                "take-down",
+                "double-edge",
+                "sonic-boom"
+            ],
+            "evolution": [
+                "voltorb",
+                "electrode"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png"
+        },
+        "exeggcute": {
+            "name": "exeggcute",
+            "types": [
+                "grass",
+                "psychic"
+            ],
+            "moves": [
+                "swords-dance",
+                "headbutt",
+                "take-down",
+                "double-edge",
+                "psybeam"
+            ],
+            "evolution": [
+                "exeggcute",
+                "exeggutor"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png"
+        },
+        "exeggutor": {
+            "name": "exeggutor",
+            "types": [
+                "grass",
+                "psychic"
+            ],
+            "moves": [
+                "swords-dance",
+                "stomp",
+                "headbutt",
+                "body-slam",
+                "take-down"
+            ],
+            "evolution": [
+                "exeggcute",
+                "exeggutor"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png"
+        },
+        "cubone": {
+            "name": "cubone",
+            "types": [
+                "ground"
+            ],
+            "moves": [
+                "mega-punch",
+                "fire-punch",
+                "thunder-punch",
+                "swords-dance",
+                "double-kick"
+            ],
+            "evolution": [
+                "cubone",
+                "marowak"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png"
+        },
+        "marowak": {
+            "name": "marowak",
+            "types": [
+                "ground"
+            ],
+            "moves": [
+                "mega-punch",
+                "fire-punch",
+                "thunder-punch",
+                "swords-dance",
+                "mega-kick"
+            ],
+            "evolution": [
+                "cubone",
+                "marowak"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png"
+        },
+        "hitmonlee": {
+            "name": "hitmonlee",
+            "types": [
+                "fighting"
+            ],
+            "moves": [
+                "mega-punch",
+                "swords-dance",
+                "double-kick",
+                "mega-kick",
+                "jump-kick"
+            ],
+            "evolution": [
+                "tyrogue",
+                "hitmonlee"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png"
+        },
+        "hitmonchan": {
+            "name": "hitmonchan",
+            "types": [
+                "fighting"
+            ],
+            "moves": [
+                "comet-punch",
+                "mega-punch",
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch"
+            ],
+            "evolution": [
+                "tyrogue",
+                "hitmonlee"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png"
+        },
+        "lickitung": {
+            "name": "lickitung",
+            "types": [
+                "normal"
+            ],
+            "moves": [
+                "mega-punch",
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch",
+                "swords-dance"
+            ],
+            "evolution": [
+                "lickitung",
+                "lickilicky"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png"
+        },
+        "koffing": {
+            "name": "koffing",
+            "types": [
+                "poison"
+            ],
+            "moves": [
+                "headbutt",
+                "tackle",
+                "body-slam",
+                "take-down",
+                "flamethrower"
+            ],
+            "evolution": [
+                "koffing",
+                "weezing"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png"
+        },
+        "weezing": {
+            "name": "weezing",
+            "types": [
+                "poison"
+            ],
+            "moves": [
+                "headbutt",
+                "tackle",
+                "body-slam",
+                "take-down",
+                "flamethrower"
+            ],
+            "evolution": [
+                "koffing",
+                "weezing"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png"
+        },
+        "rhyhorn": {
+            "name": "rhyhorn",
+            "types": [
+                "ground",
+                "rock"
+            ],
+            "moves": [
+                "swords-dance",
+                "stomp",
+                "sand-attack",
+                "headbutt",
+                "horn-attack"
+            ],
+            "evolution": [
+                "rhyhorn",
+                "rhydon",
+                "rhyperior"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png"
+        },
+        "rhydon": {
+            "name": "rhydon",
+            "types": [
+                "ground",
+                "rock"
+            ],
+            "moves": [
+                "mega-punch",
+                "pay-day",
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch"
+            ],
+            "evolution": [
+                "rhyhorn",
+                "rhydon",
+                "rhyperior"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png"
+        },
+        "chansey": {
+            "name": "chansey",
+            "types": [
+                "normal"
+            ],
+            "moves": [
+                "pound",
+                "double-slap",
+                "mega-punch",
+                "fire-punch",
+                "ice-punch"
+            ],
+            "evolution": [
+                "happiny",
+                "chansey",
+                "blissey"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png"
+        },
+        "tangela": {
+            "name": "tangela",
+            "types": [
+                "grass"
+            ],
+            "moves": [
+                "swords-dance",
+                "cut",
+                "bind",
+                "slam",
+                "vine-whip"
+            ],
+            "evolution": [
+                "tangela",
+                "tangrowth"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png"
+        },
+        "kangaskhan": {
+            "name": "kangaskhan",
+            "types": [
+                "normal"
+            ],
+            "moves": [
+                "pound",
+                "comet-punch",
+                "mega-punch",
+                "fire-punch",
+                "ice-punch"
+            ],
+            "evolution": [
+                "kangaskhan"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png"
+        },
+        "horsea": {
+            "name": "horsea",
+            "types": [
+                "water"
+            ],
+            "moves": [
+                "razor-wind",
+                "headbutt",
+                "take-down",
+                "double-edge",
+                "leer"
+            ],
+            "evolution": [
+                "horsea",
+                "seadra",
+                "kingdra"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png"
+        },
+        "seadra": {
+            "name": "seadra",
+            "types": [
+                "water"
+            ],
+            "moves": [
+                "headbutt",
+                "take-down",
+                "double-edge",
+                "leer",
+                "disable"
+            ],
+            "evolution": [
+                "horsea",
+                "seadra",
+                "kingdra"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png"
+        },
+        "goldeen": {
+            "name": "goldeen",
+            "types": [
+                "water"
+            ],
+            "moves": [
+                "swords-dance",
+                "headbutt",
+                "horn-attack",
+                "fury-attack",
+                "horn-drill"
+            ],
+            "evolution": [
+                "goldeen",
+                "seaking"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png"
+        },
+        "seaking": {
+            "name": "seaking",
+            "types": [
+                "water"
+            ],
+            "moves": [
+                "swords-dance",
+                "headbutt",
+                "horn-attack",
+                "fury-attack",
+                "horn-drill"
+            ],
+            "evolution": [
+                "goldeen",
+                "seaking"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png"
+        },
+        "staryu": {
+            "name": "staryu",
+            "types": [
+                "water"
+            ],
+            "moves": [
+                "headbutt",
+                "tackle",
+                "take-down",
+                "double-edge",
+                "supersonic"
+            ],
+            "evolution": [
+                "staryu",
+                "starmie"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png"
+        },
+        "starmie": {
+            "name": "starmie",
+            "types": [
+                "water",
+                "psychic"
+            ],
+            "moves": [
+                "headbutt",
+                "tackle",
+                "take-down",
+                "double-edge",
+                "water-gun"
+            ],
+            "evolution": [
+                "staryu",
+                "starmie"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png"
+        },
+        "mr-mime": {
+            "name": "mr-mime",
+            "types": [
+                "psychic",
+                "fairy"
+            ],
+            "moves": [
+                "pound",
+                "double-slap",
+                "mega-punch",
+                "fire-punch",
+                "ice-punch"
+            ],
+            "evolution": [
+                "mime-jr",
+                "mr-mime",
+                "mr-rime"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png"
+        },
+        "scyther": {
+            "name": "scyther",
+            "types": [
+                "bug",
+                "flying"
+            ],
+            "moves": [
+                "razor-wind",
+                "swords-dance",
+                "cut",
+                "wing-attack",
+                "headbutt"
+            ],
+            "evolution": [
+                "scyther",
+                "scizor"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png"
+        },
+        "jynx": {
+            "name": "jynx",
+            "types": [
+                "ice",
+                "psychic"
+            ],
+            "moves": [
+                "pound",
+                "double-slap",
+                "mega-punch",
+                "ice-punch",
+                "mega-kick"
+            ],
+            "evolution": [
+                "smoochum",
+                "jynx"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png"
+        },
+        "electabuzz": {
+            "name": "electabuzz",
+            "types": [
+                "electric"
+            ],
+            "moves": [
+                "mega-punch",
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch",
+                "mega-kick"
+            ],
+            "evolution": [
+                "elekid",
+                "electabuzz",
+                "electivire"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png"
+        },
+        "magmar": {
+            "name": "magmar",
+            "types": [
+                "fire"
+            ],
+            "moves": [
+                "mega-punch",
+                "fire-punch",
+                "thunder-punch",
+                "mega-kick",
+                "headbutt"
+            ],
+            "evolution": [
+                "magby",
+                "magmar",
+                "magmortar"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png"
+        },
+        "pinsir": {
+            "name": "pinsir",
+            "types": [
+                "bug"
+            ],
+            "moves": [
+                "vice-grip",
+                "guillotine",
+                "swords-dance",
+                "cut",
+                "bind"
+            ],
+            "evolution": [
+                "pinsir"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png"
+        },
+        "tauros": {
+            "name": "tauros",
+            "types": [
+                "normal"
+            ],
+            "moves": [
+                "stomp",
+                "headbutt",
+                "horn-attack",
+                "horn-drill",
+                "tackle"
+            ],
+            "evolution": [
+                "tauros"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png"
+        },
+        "magikarp": {
+            "name": "magikarp",
+            "types": [
+                "water"
+            ],
+            "moves": [
+                "tackle",
+                "hydro-pump",
+                "splash",
+                "flail",
+                "bounce"
+            ],
+            "evolution": [
+                "magikarp",
+                "gyarados"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png"
+        },
+        "gyarados": {
+            "name": "gyarados",
+            "types": [
+                "water",
+                "flying"
+            ],
+            "moves": [
+                "bind",
+                "headbutt",
+                "tackle",
+                "body-slam",
+                "take-down"
+            ],
+            "evolution": [
+                "magikarp",
+                "gyarados"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png"
+        },
+        "lapras": {
+            "name": "lapras",
+            "types": [
+                "water",
+                "ice"
+            ],
+            "moves": [
+                "headbutt",
+                "horn-drill",
+                "body-slam",
+                "take-down",
+                "double-edge"
+            ],
+            "evolution": [
+                "lapras"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png"
+        },
+        "ditto": {
+            "name": "ditto",
+            "types": [
+                "normal"
+            ],
+            "moves": [
+                "transform"
+            ],
+            "evolution": [
+                "ditto"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png"
+        },
+        "eevee": {
+            "name": "eevee",
+            "types": [
+                "normal"
+            ],
+            "moves": [
+                "pay-day",
+                "double-kick",
+                "sand-attack",
+                "headbutt",
+                "tackle"
+            ],
+            "evolution": [
+                "eevee",
+                "vaporeon"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
+        },
+        "vaporeon": {
+            "name": "vaporeon",
+            "types": [
+                "water"
+            ],
+            "moves": [
+                "pay-day",
+                "double-kick",
+                "sand-attack",
+                "headbutt",
+                "tackle"
+            ],
+            "evolution": [
+                "eevee",
+                "vaporeon"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png"
+        },
+        "jolteon": {
+            "name": "jolteon",
+            "types": [
+                "electric"
+            ],
+            "moves": [
+                "pay-day",
+                "double-kick",
+                "sand-attack",
+                "headbutt",
+                "tackle"
+            ],
+            "evolution": [
+                "eevee",
+                "vaporeon"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png"
+        },
+        "flareon": {
+            "name": "flareon",
+            "types": [
+                "fire"
+            ],
+            "moves": [
+                "pay-day",
+                "double-kick",
+                "sand-attack",
+                "headbutt",
+                "tackle"
+            ],
+            "evolution": [
+                "eevee",
+                "vaporeon"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png"
+        },
+        "porygon": {
+            "name": "porygon",
+            "types": [
+                "normal"
+            ],
+            "moves": [
+                "headbutt",
+                "tackle",
+                "take-down",
+                "double-edge",
+                "ice-beam"
+            ],
+            "evolution": [
+                "porygon",
+                "porygon2",
+                "porygon-z"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png"
+        },
+        "omanyte": {
+            "name": "omanyte",
+            "types": [
+                "rock",
+                "water"
+            ],
+            "moves": [
+                "bind",
+                "slam",
+                "sand-attack",
+                "headbutt",
+                "horn-attack"
+            ],
+            "evolution": [
+                "omanyte",
+                "omastar"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png"
+        },
+        "omastar": {
+            "name": "omastar",
+            "types": [
+                "rock",
+                "water"
+            ],
+            "moves": [
+                "bind",
+                "sand-attack",
+                "headbutt",
+                "horn-attack",
+                "horn-drill"
+            ],
+            "evolution": [
+                "omanyte",
+                "omastar"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png"
+        },
+        "kabuto": {
+            "name": "kabuto",
+            "types": [
+                "rock",
+                "water"
+            ],
+            "moves": [
+                "scratch",
+                "sand-attack",
+                "headbutt",
+                "body-slam",
+                "take-down"
+            ],
+            "evolution": [
+                "kabuto",
+                "kabutops"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png"
+        },
+        "kabutops": {
+            "name": "kabutops",
+            "types": [
+                "rock",
+                "water"
+            ],
+            "moves": [
+                "scratch",
+                "razor-wind",
+                "swords-dance",
+                "cut",
+                "mega-kick"
+            ],
+            "evolution": [
+                "kabuto",
+                "kabutops"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png"
+        },
+        "aerodactyl": {
+            "name": "aerodactyl",
+            "types": [
+                "rock",
+                "flying"
+            ],
+            "moves": [
+                "razor-wind",
+                "wing-attack",
+                "whirlwind",
+                "fly",
+                "headbutt"
+            ],
+            "evolution": [
+                "aerodactyl"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png"
+        },
+        "snorlax": {
+            "name": "snorlax",
+            "types": [
+                "normal"
+            ],
+            "moves": [
+                "mega-punch",
+                "pay-day",
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch"
+            ],
+            "evolution": [
+                "munchlax",
+                "snorlax"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png"
+        },
+        "articuno": {
+            "name": "articuno",
+            "types": [
+                "ice",
+                "flying"
+            ],
+            "moves": [
+                "razor-wind",
+                "gust",
+                "whirlwind",
+                "fly",
+                "headbutt"
+            ],
+            "evolution": [
+                "articuno"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png"
+        },
+        "zapdos": {
+            "name": "zapdos",
+            "types": [
+                "electric",
+                "flying"
+            ],
+            "moves": [
+                "razor-wind",
+                "whirlwind",
+                "fly",
+                "headbutt",
+                "take-down"
+            ],
+            "evolution": [
+                "zapdos"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png"
+        },
+        "moltres": {
+            "name": "moltres",
+            "types": [
+                "fire",
+                "flying"
+            ],
+            "moves": [
+                "razor-wind",
+                "gust",
+                "wing-attack",
+                "whirlwind",
+                "fly"
+            ],
+            "evolution": [
+                "moltres"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png"
+        },
+        "dratini": {
+            "name": "dratini",
+            "types": [
+                "dragon"
+            ],
+            "moves": [
+                "bind",
+                "slam",
+                "headbutt",
+                "body-slam",
+                "wrap"
+            ],
+            "evolution": [
+                "dratini",
+                "dragonair",
+                "dragonite"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png"
+        },
+        "dragonair": {
+            "name": "dragonair",
+            "types": [
+                "dragon"
+            ],
+            "moves": [
+                "bind",
+                "slam",
+                "headbutt",
+                "horn-drill",
+                "body-slam"
+            ],
+            "evolution": [
+                "dratini",
+                "dragonair",
+                "dragonite"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png"
+        },
+        "dragonite": {
+            "name": "dragonite",
+            "types": [
+                "dragon",
+                "flying"
+            ],
+            "moves": [
+                "mega-punch",
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch",
+                "razor-wind"
+            ],
+            "evolution": [
+                "dratini",
+                "dragonair",
+                "dragonite"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png"
+        },
+        "mewtwo": {
+            "name": "mewtwo",
+            "types": [
+                "psychic"
+            ],
+            "moves": [
+                "mega-punch",
+                "pay-day",
+                "fire-punch",
+                "ice-punch",
+                "thunder-punch"
+            ],
+            "evolution": [
+                "mewtwo"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png"
+        },
+        "mew": {
+            "name": "mew",
+            "types": [
+                "psychic"
+            ],
+            "moves": [
+                "pound",
+                "mega-punch",
+                "pay-day",
+                "fire-punch",
+                "ice-punch"
+            ],
+            "evolution": [
+                "mew"
+            ],
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png"
+        }
+    }
+}

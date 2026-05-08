@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ pokemon.name }} 상세</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            text-align: center;
+        }
+
+        .card {
+            width: 400px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        }
+
+        img {
+            width: 200px;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 5px 10px;
+            background: #eee;
+            border-radius: 10px;
+            margin: 5px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .back {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            background: #4a90e2;
+            color: white;
+            border-radius: 8px;
+        }
+
+        .move-tag {
+            display: inline-block;
+            background: #4a90e2;
+            color: white;
+            padding: 5px 10px;
+            margin: 3px;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+
+        .evo-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        .evo-card {
+            background: #fff;
+            padding: 10px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            text-align: center;
+            width: 120px;
+            transition: 0.2s;
+        }
+
+        .evo-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .evo-card img {
+            width: 80px;
+            height: 80px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <h1>{{ pokemon.name }}</h1>
+
+    <img src="{{ pokemon.image }}">
+
+    <h3>타입</h3>
+    {% for t in pokemon.types %}
+        <span class="tag">{{ t }}</span>
+    {% endfor %}
+
+    <h3>기술</h3>
+    <div>
+        {% for m in pokemon.moves %}
+            <span class="move-tag">{{ m }}</span>
+        {% endfor %}
+    </div>
+
+    <h3>진화</h3>
+
+    <div class="evo-container">
+
+        {% for evo in evolution_list %}
+
+        <div class="evo-card">
+
+            <img src="{{ evo.image }}" alt="{{ evo.name }}">
+
+            <p>{{ evo.name }}</p>
+
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+    <br>
+
+    <a href="/" class="back">← 뒤로가기</a>
+
+</div>
+
+</body>
+</html>
