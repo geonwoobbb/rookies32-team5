@@ -15,7 +15,6 @@
 ├── make_excel.py       # 크롤링 결과 엑셀 저장
 ├── pokemon_detail.py   # CLI 포켓몬 상세 보기
 ├── back_menu.py        # CLI 뒤로 가기 공통 유틸
-├── filter_by_type.py   # 타입 필터 프로토타입
 ├── pokemon_cache.json  # 포켓몬 데이터 캐시
 ├── favorites.json      # 즐겨찾기 저장 파일
 ├── requirements.txt    # 의존성 패키지 목록
